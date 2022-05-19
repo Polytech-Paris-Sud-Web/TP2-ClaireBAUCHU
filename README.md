@@ -1,4 +1,4 @@
-AIDE : j'ai été aidée par Lucas PAYET, Julien SAVE et Benoit DEFOSSEZ
+AIDE : j'ai été aidée par Sébastien LEONCE
 
 # SimpleApp
 
