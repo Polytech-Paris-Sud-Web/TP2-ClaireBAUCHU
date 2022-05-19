@@ -1,0 +1,14 @@
+body {
+  background-color: lightblue;
+}
+
+h3 {
+  color: navy;
+  margin-left: 20px;
+}
+
+.article{
+  color: blue;
+  background: beige;
+  border: 1px solid;
+}

@@ -1,0 +1,1 @@
+export type Article = {id:number, title: string | undefined, content: string | undefined, author: string | undefined};

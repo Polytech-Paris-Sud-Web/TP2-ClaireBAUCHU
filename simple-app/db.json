@@ -1,0 +1,29 @@
+{
+  "articles": [
+    {
+      "id": 3,
+      "title": "Angular service",
+      "content": "I read something about angular service, i will try it soon",
+      "author": "Orangefire"
+    },
+    {
+      "title": "Fake Title",
+      "content": "hello",
+      "author": "hello",
+      "id": 4
+    }
+  ],
+
+  "authors": [
+    {
+      "id": 1,
+      "name": "Orangefire",
+      "biography": "je fais de l'angular"
+    },
+    {
+      "id": 2,
+      "name": "hello",
+      "biography": "je fais de l'angular2"
+    }
+  ]
+}

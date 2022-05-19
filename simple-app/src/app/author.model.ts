@@ -1,0 +1,1 @@
+export type Author = {id:number, name: string | undefined, biography: string | undefined};
