@@ -1,0 +1,21 @@
+import { AuthorService } from './author.service';
+import { Component, OnInit } from '@angular/core';
+import { ArticleService } from './article.service';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent implements OnInit {
+  title = 'simple-app';
+
+  constructor(private articleService: ArticleService, private authorService : AuthorService) { 
+    this.authorService.preloadAuthors$().subscribe();
+    this.articleService.preloadArticles$().subscribe();
+  }
+
+  ngOnInit() {
+    
+  }
+}
